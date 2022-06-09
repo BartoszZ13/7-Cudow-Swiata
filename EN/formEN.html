@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Bartosz Zawadzki - Pietrzak">
+	<meta name="description" content="Survey">
+	<meta name="keywords" content="Survey">
+	<link rel="stylesheet" type="text/css" href="../styles.css">
+</head>
+<body>
+ 	<header>
+ 		<a href="../EN/indexEN.html"><img src="../img/Banner_en.png" id="banner"></a>
+ 		<a href="../PL/form.html"><img src="../img/plflag.png" id="flag"></a>
+ 	</header>
+ 	<article>
+ 		<h1 id="title">Survey</h1>
+ 		<form style="margin-top: 2vh;">
+		        <label for="fname" class="biglab">Name:</label><br>
+		        <input type="text" id="fname" name="fname" class="smallinp"><br>
+		        <label for="lname" class="biglab">Surname:</label><br>
+		        <input type="text" id="lname" name="lname" class="smallinp"><br>
+		</form><br>
+		<label for="choose" class="biglab">Favourite wonder:</label><br>
+		<form id="choose" style="margin-bottom: 3vh;">
+		        <input type="radio" id="taj" name="wonder" value="taj" class="smallbox">
+			<label for="taj">Taj Mahal</label><br>
+			<input type="radio" id="gal" name="wonder" value="gal" class="smallbox">
+			<label for="gal">Galapagos</label><br>
+			<input type="radio" id="can" name="wonder" value="can" class="smallbox">
+			<label for="can">Grand Canyon</label><br>
+			<input type="radio" id="eve" name="wonder" value="eve" class="smallbox">
+			<label for="eve">Mount Everest</label><br>
+			<input type="radio" id="col" name="wonder" value="col" class="smallbox">
+			<label for="col">Colosseo</label><br>
+			<input type="radio" id="hag" name="wonder" value="hag" class="smallbox">
+			<label for="hag">Hagia Sophia</label><br>
+			<input type="radio" id="stn" name="wonder" value="stn" class="smallbox">
+			<label for="stn">Stonehenge</label><br>
+		</form><br>
+			<input type="button" onclick="alert('Answer sent!')" value="Wyślij" id="submit">
+ 	</article>
+ 	<footer class="footershort">
+        <address>
+        Copyright <a href="mailto:bartosz.zawadzki-pietrzak@tm1.edu.pl">Bartosz Zawadzki - Pietrzak 1TA</a> 2022 <sup>&copy;</sup>
+        </address>
+    </footer>
+</body>
+</html>
